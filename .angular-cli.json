@@ -19,9 +19,14 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",        
+        "libs/w2ui/w2ui.min.css",
+        "libs/global/global.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "libs/jquery/jquery.js",
+        "libs/w2ui/w2ui.min.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
